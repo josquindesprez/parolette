@@ -1,0 +1,44 @@
+.word {
+  position: relative;
+  animation: move 10s ease-in-out;
+  top: 0;
+  left: 0px;
+  
+  font-size: 18px;
+}
+@keyframes move {
+  0% {
+    left: -100px;
+  }
+  100% {
+    left: 100%;
+  }
+}
+/* altezza delle parole */
+.word:nth-child(1) {
+  top: 50px;
+}
+
+.word:nth-child(2) {
+  top: 100px;
+}
+
+.word:nth-child(3) {
+  top: 150px;
+}
+
+/* aggiungi altre altezze se necessario */
+
+#comincia{
+  position: absolute;
+  width: 10vw;
+  height: 10vh;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  transform: translate(-50%, -50%);
+}
+
+
