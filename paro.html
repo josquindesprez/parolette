@@ -1,0 +1,44 @@
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    
+    
+    <link href="https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./paro.css">
+
+</head>
+<body>
+    <div id="modal" class="modal is-fullscreen">
+  <div class="modal-background"></div>
+  <div class="modal-content">
+    <div id="punteggiofinale" class="fsigmar notification has-text-centered is-danger has-text-weight-bold has-text-1"> 0 </div>
+    <!-- Modal content goes here -->
+  </div>
+  <button class="modal-close is-large" aria-label="close"></button>
+</div>
+
+    <div id="wordContainer" style="left: 0px;top: 0px;width: 100vw;height: 80vh;overflow:hidden; background-color: #91baba;">
+       <button id="comincia" class="button " style="background-color: #34703d;color: bfe3c4;"  onclick="start()"> COMINCIA!</button>
+
+
+    </div>
+    <div class="box">
+        <div class="columns">
+            <div class="column is-5">   
+            <input id="inp" class="input"></input>
+            </div>
+            <div class="column is-3">
+                <div  id="timer" class="fsigmar box has-text-centered is-danger has-text-weight-bold has-text-1"> 02 : 00 </div>
+            </div>
+
+            <div class="column is-2">
+                <div id="punteggio" class="fsigmar notification has-text-centered is-danger has-text-weight-bold has-text-1"> 0 </div>
+            </div>
+            
+        </div>
+    </div>
+    
+</body>
+<script src="./paro.js" /></script>
+</html>
